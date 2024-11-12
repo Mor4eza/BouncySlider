@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B4B9BB1B2CE33F24002D3695 /* BouncySlider in Frameworks */ = {isa = PBXBuildFile; productRef = B4B9BB1A2CE33F24002D3695 /* BouncySlider */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B4B9BB072CE33E3B002D3695 /* BouncySlider_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncySlider_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B9BB182CE33EC9002D3695 /* BouncySlider */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BouncySlider; path = ../BouncySlider; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B9BB1B2CE33F24002D3695 /* BouncySlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +38,9 @@
 		B4B9BAFE2CE33E3B002D3695 = {
 			isa = PBXGroup;
 			children = (
+				B4B9BB182CE33EC9002D3695 /* BouncySlider */,
 				B4B9BB092CE33E3B002D3695 /* BouncySlider_example */,
+				B4B9BB192CE33F24002D3695 /* Frameworks */,
 				B4B9BB082CE33E3B002D3695 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +51,13 @@
 				B4B9BB072CE33E3B002D3695 /* BouncySlider_example.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B9BB192CE33F24002D3695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +80,7 @@
 			);
 			name = BouncySlider_example;
 			packageProductDependencies = (
+				B4B9BB1A2CE33F24002D3695 /* BouncySlider */,
 			);
 			productName = BouncySlider_example;
 			productReference = B4B9BB072CE33E3B002D3695 /* BouncySlider_example.app */;
@@ -322,6 +338,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4B9BB1A2CE33F24002D3695 /* BouncySlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BouncySlider;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4B9BAFF2CE33E3B002D3695 /* Project object */;
 }
