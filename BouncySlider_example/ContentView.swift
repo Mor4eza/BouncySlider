@@ -23,12 +23,11 @@ struct ContentView: View {
                 } else {
                     Image(systemName: "speaker.fill").foregroundStyle(.gray)
                 }
-                
             }
             Text("Volume: \(Int(value * 100))%")
                 
         }
-
+        
     }
 }
 
