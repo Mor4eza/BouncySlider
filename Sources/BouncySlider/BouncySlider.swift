@@ -8,30 +8,6 @@
 //
 import SwiftUI
 
-struct TestSlider: View {
-    @State var value: CGFloat = 0.4
-    var body: some View {
-        BouncySlider(value: $value, orientation: .vertical) {
-            if value == 0.0 {
-                Image(systemName: "speaker.fill").foregroundStyle(.gray)
-            } else if value <= 0.5 {
-                Image(systemName: "speaker.wave.1.fill").foregroundStyle(.gray)
-            
-            } else {
-                Image(systemName: "speaker.wave.2.fill").foregroundStyle(.gray)
-            }
-            
-        }
-           
-    }
-       
-}
-
-
-#Preview {
-    TestSlider()
-}
-
 public struct BouncySlider<Content: View>: View {
     @Binding var value: CGFloat
     var maxValue: CGFloat = 1.0

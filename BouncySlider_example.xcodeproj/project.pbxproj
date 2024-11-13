@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B4B9BB1B2CE33F24002D3695 /* BouncySlider in Frameworks */ = {isa = PBXBuildFile; productRef = B4B9BB1A2CE33F24002D3695 /* BouncySlider */; };
+		B4B9BB7C2CE4D77D002D3695 /* BouncySlider in Frameworks */ = {isa = PBXBuildFile; productRef = B4B9BB7B2CE4D77D002D3695 /* BouncySlider */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B9BB1B2CE33F24002D3695 /* BouncySlider in Frameworks */,
+				B4B9BB7C2CE4D77D002D3695 /* BouncySlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +83,7 @@
 			name = BouncySlider_example;
 			packageProductDependencies = (
 				B4B9BB1A2CE33F24002D3695 /* BouncySlider */,
+				B4B9BB7B2CE4D77D002D3695 /* BouncySlider */,
 			);
 			productName = BouncySlider_example;
 			productReference = B4B9BB072CE33E3B002D3695 /* BouncySlider_example.app */;
@@ -110,6 +113,9 @@
 			);
 			mainGroup = B4B9BAFE2CE33E3B002D3695;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B4B9BB7A2CE4D77D002D3695 /* XCLocalSwiftPackageReference "../BouncySlider" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B4B9BB082CE33E3B002D3695 /* Products */;
 			projectDirPath = "";
@@ -339,8 +345,19 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		B4B9BB7A2CE4D77D002D3695 /* XCLocalSwiftPackageReference "../BouncySlider" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../BouncySlider;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		B4B9BB1A2CE33F24002D3695 /* BouncySlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BouncySlider;
+		};
+		B4B9BB7B2CE4D77D002D3695 /* BouncySlider */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BouncySlider;
 		};
