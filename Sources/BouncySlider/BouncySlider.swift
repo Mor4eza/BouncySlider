@@ -96,7 +96,6 @@ public struct BouncySlider<Content: View>: View {
                         value = min(max(adjustedValue * (maxValue - minValue) + minValue, minValue), maxValue)
                         
                         if value == maxValue || value == minValue {
-                            let _ = print(adjustedValue)
                             withAnimation(.linear) {
                                 bounceEffect = 1.1 // Slightly enlarge on bounce
                             }
