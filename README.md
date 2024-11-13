@@ -23,7 +23,7 @@
 You can add BouncySlider to your project using Swift Package Manager:
 
 1. Open your project in Xcode.
-2. Go to **File > Swift Packages > Add Package Dependency...**
+2. Go to **File > Add Package Dependency...**
 3. Enter the following URL:
 4. https://github.com/Mor4eza/BouncySlider.git
 5. Select the version you’d like to use, or leave it as the default, and click **Next**.
